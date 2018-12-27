@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HeroesComponent }      from './heroes/heroes.component';
 
+
 const routes: Routes = [
   { path: 'heroes', component: HeroesComponent }
 ];
@@ -10,7 +11,8 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
-    CommonModule],
+    CommonModule
+  ],
   exports: [RouterModule]
 })
 
